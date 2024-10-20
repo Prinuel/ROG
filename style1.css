@@ -134,7 +134,7 @@ span{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 80px;
     padding:10px 40px;
   
 }
@@ -182,5 +182,16 @@ span{
     padding: 10px;
     text-align: center;
     color: white;
-    
+}
+.allGods >div >img:hover{
+    box-shadow: rgba(219, 109, 18, 0.7) -10px 10px 50px;
+    transform: scale(1.2);
+}
+.allGods >div >img{
+    border:4px solid white;
+    border-radius: 20px;
+    transition: box-shadow 1s, transform 1s;
+} 
+.allGods> div> p{
+    font: 300 20px garamond;
 }
